@@ -5,8 +5,12 @@ import Productos from './Productos';
 import ProductoDetalle from './ProductoDetalle';
 import EditarProducto from './EditarProducto';
 import AddProducto from './AddProducto';
+import { inject } from '@vercel/analytics';
 
 function App() {
+
+  inject();
+  
   return (
     <div>
       <nav className='menu'>
