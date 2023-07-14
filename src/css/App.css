@@ -1,0 +1,22 @@
+nav a{
+  margin: 1rem;
+  font-size: 18pt;
+  text-decoration-line: none;
+  color: white;
+}
+
+.menu {
+  background-color: rgb(21, 70, 71);
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav a:hover{
+  margin: 1rem;
+  font-size: 18pt;
+  text-decoration-line: none;
+  color: blue;
+}
+

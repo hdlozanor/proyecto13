@@ -1,0 +1,35 @@
+.container1{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card1 {
+    width: 20%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.imagen1 {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+.categoria {
+    text-align: center;
+}
+
+.enlace {
+    text-decoration-line: none;
+}

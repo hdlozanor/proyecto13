@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(238, 235, 235);
+}
+
+.card {
+    width: 400px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    box-shadow: 5px 5px 10px rgb(158, 197, 198);
+}
+
+.text {
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;    
+}
+
+.button{
+    width: 106%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(21, 70, 71);
+    border: none;
+    cursor: pointer;
+}
